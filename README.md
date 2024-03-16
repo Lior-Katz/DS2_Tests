@@ -17,10 +17,13 @@ Unit tests that check the internal state and functionality of the code. These te
   ```
   project(Google_tests)
   add_subdirectory(lib)
+  add_subdirectory(Blackbox_Testing)
+  add_subdirectory(Whitebox_Testing)
+
   include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
-  
+
   add_executable(Google_Tests_run)
-  
+
   target_link_libraries(Google_Tests_run gtest gtest_main)
   ```
   Add all additional files that need to be compiled to the list in `add_executable(...)` (test files and source files)
