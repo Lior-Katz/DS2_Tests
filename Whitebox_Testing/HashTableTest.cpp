@@ -5,7 +5,7 @@
 #include "gtest/gtest.h"
 #include "../../HashTable.h"
 
-#include "../utils.h
+#include "../utils.h"
 #define SUITE HashTableTest
 
 TEST(SUITE, init)

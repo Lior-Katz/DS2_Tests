@@ -24,11 +24,7 @@ enum newStatusType
 constexpr const char* status_type_strings[] = {NEW_STATUS_TYPE};
 #undef X
 
-std::string str(StatusType status)
-{
-	return status_type_strings[static_cast<int>(status)];
-}
-
+std::string str(StatusType status);
 
 #define SUCCESS (StatusType::SUCCESS)
 #define FAILURE (StatusType::FAILURE)
