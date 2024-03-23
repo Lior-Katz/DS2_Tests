@@ -1,7 +1,7 @@
 //
 // Created by Lior on 16/03/2024.
 //
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
 #include "../../HashTable.h"
 #include "../utils.h"
 

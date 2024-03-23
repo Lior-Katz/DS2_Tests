@@ -28,4 +28,6 @@ std::string str(StatusType status);
 
 #define SUCCESS (StatusType::SUCCESS)
 #define FAILURE (StatusType::FAILURE)
+#define ALLOCATION_ERROR (StatusType::ALLOCATION_ERROR)
+#define INVALID_INPUT (StatusType::INVALID_INPUT)
 #endif //DATASTRUCTURES2_UTILS_H
